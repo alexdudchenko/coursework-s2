@@ -1,0 +1,253 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-size: 18px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: linear-gradient(75deg, #f5d058, #ef4b51);
+}
+
+body h1 {
+    margin-top: 10px;
+}
+
+table {
+    font-size: 22px;
+    table-layout: auto;
+    width: 100%;
+}
+
+table thead {
+    font-size: 24px;
+}
+
+table td {
+    text-align: center;
+}
+
+table td a {
+    color: #000000;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 100%;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    position: relative;
+    top: 0;
+    left: 0;
+    background: #292017;
+}
+
+header:last-child {
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.header-left {
+    font-size: 22px;
+    text-align: center;
+}
+
+.header-left form p {
+    color: white;
+}
+
+.header-left input {
+    font-size: 15px;
+    background: linear-gradient(135deg, #efee89, #f0f800);
+    border-radius: 15px;
+    padding: 3px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    border: none;
+}
+
+body.login {
+    padding: 15% 25%;
+    justify-content: center;
+    justify-items: center;
+}
+
+.login-container {
+    max-width: 500px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    background: aliceblue;
+    padding: 25px 35px;
+    border-radius: 15px;
+    margin-bottom: 15px;
+}
+
+.login-container input {
+    margin-top: 10px;
+    height: 45px;
+    width: 100%;
+    outline: none;
+    font-size: 16px;
+    border-radius: 5px;
+    padding-left: 15px;
+    border: 1px solid #ccc;
+    border-bottom-width: 2px;
+    transition: all 0.3s ease;
+}
+
+.login-container input.submit {
+    margin-top: 20px;
+    height: 45px;
+    width: 100%;
+    border-radius: 10px;
+    border: none;
+    color: #fff;
+    font-size: 25px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    background: linear-gradient(135deg, #f1c947, #ef4b51);
+}
+
+.login-container h1 {
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+table.description {
+    margin-top: 60px;
+    margin-bottom: 20px;
+    font-size: 22px;
+    background: linear-gradient(135deg, #ae6adb, #638ee5);
+    border-radius: 15px;
+    table-layout: auto;
+    width: 500px;
+}
+
+table.description thead {
+    font-size: 24px;
+}
+
+table.places {
+    border-collapse: separate;
+    border-spacing: 20px 15px;
+    width: 100%;
+}
+
+table.places td {
+    border: 2px solid #ea3f3f;;
+}
+
+.place-form {
+    font-size: 25px;
+}
+
+.place-form input {
+    margin-top: 10px;
+    height: 45px;
+    width: 100%;
+    outline: none;
+    font-size: 16px;
+    border-radius: 5px;
+    padding-left: 15px;
+    border: 1px solid #ccc;
+    border-bottom-width: 2px;
+    transition: all 0.3s ease;
+}
+
+.place-form input.submit {
+    margin-top: 20px;
+    height: 45px;
+    width: 100%;
+    border-radius: 10px;
+    border: none;
+    color: #fff;
+    font-size: 25px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    background: linear-gradient(135deg, #f1c947, #ef4b51);
+}
+
+.create-page-form input {
+    margin-top: 10px;
+    height: 45px;
+    width: 100%;
+    outline: none;
+    font-size: 16px;
+    border-radius: 5px;
+    padding-left: 15px;
+    border: 1px solid #ccc;
+    border-bottom-width: 2px;
+    transition: all 0.3s ease;
+}
+
+.create-page-form {
+    margin-top: 10px;
+    width: 500px;
+    background: linear-gradient(135deg, white, azure);
+    border-radius: 25px;
+    padding: 25px;
+    font-size: 18px;
+}
+
+.create-page-form input.submit {
+    margin-top: 20px;
+    height: 45px;
+    width: 100%;
+    border-radius: 10px;
+    border: none;
+    color: #fff;
+    font-size: 25px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    background: linear-gradient(135deg, #f1c947, #ef4b51);
+}
+
+a.button {
+    background: linear-gradient(135deg, #efee89, #f0f800);
+    font-size: 24px;
+    border-radius: 40px;
+    color: black;
+    text-decoration: unset;
+    padding: 10px;
+}
+
+a.body-button {
+    margin-top: 15px;
+    background: linear-gradient(135deg, #efee89, #f0f800);
+    font-size: 24px;
+    border-radius: 40px;
+    color: black;
+    text-decoration: unset;
+    padding: 10px;
+}
+
+th a {
+    color: black;
+    text-decoration: underline;
+}
+
+footer {
+    text-align: center;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    background: #000000;
+    font-size: 24px;
+    color: aliceblue;
+    padding: 0 10px;
+}
